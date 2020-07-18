@@ -9,6 +9,29 @@
 Manim is an animation engine for explanatory math videos. It's used to create precise animations programmatically, as seen in the videos at [3Blue1Brown](https://www.3blue1brown.com/).
 
 > NOTE: This repository is maintained by the Manim Community, and is not associated with Grant Sanderson or 3Blue1Brown in any way (though we are definitely indebted to him for providing his work to the world). If you want to study how Grant makes his videos, head over to his repository (3b1b/manim). This is a more frequently updated repository than that one, and is recommended if you want to use Manim for your own projects.
+=======
+This repository contains the version of manim used by 3Blue1Brown. There is also a community maintained version at https://github.com/ManimCommunity/manim/.
+To get help or to join the development effort, please join the [discord](https://discord.gg/mMRrZQW).
+
+## Installation
+Manim runs on Python 3.7. You can install it from PyPI via pip:
+
+```sh
+pip3 install manimlib
+```
+
+System requirements are [cairo](https://www.cairographics.org), [ffmpeg](https://www.ffmpeg.org), [sox](http://sox.sourceforge.net), [latex](https://www.latex-project.org) (optional, if you want to use LaTeX).
+
+You can now use it via the `manim` command. For example:
+
+```sh
+manim my_project.py MyScene
+```
+
+For more options, take a look at the [Using manim](#using-manim) sections further below.
+
+### Directly
+>>>>>>> Update README.md
 
 
 ## Table of Contents:
@@ -88,12 +111,14 @@ please open an issue.
 
 
 ## Contributing
+<<<<<<< HEAD
 Is always welcome. In particular, there is a dire need for tests and
 documentation. For guidelines please see the
 [documentation](https://manimce.readthedocs.io/en/latest/contributing.html).
 This project uses [Poetry](https://python-poetry.org/docs/) for management. You need to have poetry installed and available in your environment.
 You can find more information about it in its [Documentation](https://manimce.readthedocs.io/en/latest/installation/for_dev.html)
 
+Although they are welcome, pull requests to this repository are rarely accepted. Most pull requests should be directed to the [community version](https://github.com/ManimCommunity/manim/).
 
 ## License
 
